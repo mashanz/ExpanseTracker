@@ -14,7 +14,7 @@ public class expanseTrackerDbHelper extends SQLiteOpenHelper{
     public static final String DATABASE_NAME = "ExpanseTracker.db";
 
     public static final String SQL_CREATE_TABLE =
-            "CREATE TABLE" + expanseTrackerContract.Transaction.TABLE_NAME + "(" +
+            "CREATE TABLE " + expanseTrackerContract.Transaction.TABLE_NAME + "(" +
                     " " + expanseTrackerContract.Transaction._ID + " INTEGER PRIMARY KEY," +
                     " " + expanseTrackerContract.Transaction.COLUMN_NAME_AMOUNT + " NUMERIC," +
                     " " + expanseTrackerContract.Transaction.COLUMN_NAME_DESCRIPTION + " TEXT )";
